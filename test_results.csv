@@ -1,0 +1,16 @@
+Test Case ID,Title,Status,Actual Result,Bug ID
+TC-001,Sign in with valid credentials,Passed,Account screen opened,
+TC-002,Open product details,Failed,Details link ignored tap,BUG-01
+TC-003,Apply discount code,Failed,Total remained unchanged,BUG-02
+TC-004,Load saved basket,Failed,Basket was empty,BUG-03
+TC-005,Search by exact product name,Passed,Correct product returned,
+TC-006,Change delivery address,Failed,Old address returned,BUG-04
+TC-007,Pay using demo card,Blocked,Payment sandbox unavailable,
+TC-008,Remove basket item,Passed,Item removed,
+TC-001,Repeated sign-in row,Passed,Account screen opened,
+TC-009,,Passed,Password rejected,
+,Missing identifier,Blocked,Fixture unavailable,
+TC-010,Unknown status,Pass,Screen opened,
+TC-011,Passed with bug,Passed,Screen opened,BUG-09
+TC-012,Missing failure observation,Failed,,BUG-10
+TC-013,Not executed,Not Run,,
