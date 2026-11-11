@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+qa_validation_report.txt
+.DS_Store
