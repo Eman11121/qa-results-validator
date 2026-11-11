@@ -1,0 +1,19 @@
+QA RESULTS VALIDATION
+Input: test_results.csv
+Total test rows: 15
+Unique nonblank IDs: 13
+Blocked: 2
+Failed: 5
+Not Run: 1
+Passed: 6
+Invalid/blank status: 1
+Pass rate (Passed / (Passed + Failed)): 54.5%
+Counts are raw rows; duplicates are not silently removed.
+PROVISIONAL: fix validation issues before reporting.
+Issues: 6
+Record 10: duplicate TC-001 (first: 2)
+Record 11: missing Title
+Record 12: missing Test Case ID
+Record 13: invalid Status 'Pass'
+Record 14: Passed with Bug ID
+Record 15: Failed without Actual Result
